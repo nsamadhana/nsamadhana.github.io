@@ -1,0 +1,69 @@
+html {
+  background: url(banner/nightCrawler.JPG) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Abel', sans-serif;
+
+}
+
+.bio{
+  display:inline;
+  border-width:thick;
+  padding:30px; /* Space between box and things inside */
+  color: white;
+  text-align:center;
+}
+
+.bio h1{
+  line-height:10px;
+  font-weight:100;
+  font-style:italic;
+  letter-spacing: 5;
+  font-size:35px;
+}
+
+
+.social-media img{
+  width:50px;
+  height:50px;
+}
+
+.line-break{
+  margin:0 auto;
+  width:300px;
+  border-top:1px solid white;
+}
+
+.intro a{
+  color:white;
+  font-style:italic;
+}
+
+.intro{
+  position:inherit;
+  bottom:10%;
+}
+
+.intro p{
+  font-size:20px;
+  font-weight:normal;
+  font-family: 'Abel', sans-serif;
+}
+
+.bio img{
+  width:50px;
+  height:auto;
+}
+
+#git{
+  padding-top:1%;
+  width:40px;
+  height:auto;
+}
+
+.intro p{
+  color:white;
+  text-align:center;
+}
