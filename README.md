@@ -1,2 +1,2 @@
 # nsamadhana.github.io
-simple-website
+Personal website that will be used as a portfolio to showcase work/projects
