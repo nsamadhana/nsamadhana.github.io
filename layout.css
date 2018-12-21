@@ -36,16 +36,22 @@ html {
 }
 
 .intro{
+  margin:0 auto;
   position:inherit;
   bottom:10%;
+  border-color:white;
+  width:330px;
+  height:125px;
 }
 
+
 .intro p{
+  padding-bottom:10%;
   text-align:center;
   color:white;
   font-size:20px;
   font-weight:normal;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 .bio img{
