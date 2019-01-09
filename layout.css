@@ -1,14 +1,4 @@
-
-.header h1{
-  color:white;
-  padding-top:3%;
-  text-align:center;
-  font-size: 48px;
-  font-family: 'Open Sans', sans-serif;
-  color:#F2473F;
-
-}
-
+/*container1 HOME */
 .container1{
   width:100%;
   height:600px;
@@ -22,9 +12,9 @@
 
 .container1 .name h1{
   color:white;
-  padding-top:6%;
+  padding-top:5%;
   text-align:center;
-  font-size: 64px;
+  font-size: 70px;
   font-family: 'Open Sans', sans-serif;
   color:white;
 }
@@ -40,22 +30,73 @@ ul {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size:16px
 }
 li a {
   display: block;
   color: white;
   text-align: center;
   padding: 16px 16px;
-
 }
 li {
-  float: left;
-  position:sticky;
+  float: right;
 }
 
-/*INTRO CSS*/
+/*Text box for introduction*/
+.container1 .name .introduction{
+  padding-top:50px;
+  width:500px;
+  height:300px;
+  background-color:transparent;
+  margin:auto;
+}
+
+/*Targets text inside box for introduction*/
+.container1 .name .introduction p{
+  color:white;
+}
+
+/*Container1 PORTFOLIO*/
 .container2{
   width:100%;
-  height:400px;
-  background-color:#f8f8ff;
+  height:300px;
+  background-color:#fffafa;
+}
+
+.header h1{
+  padding-top:3%;
+  text-align:center;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  color:#F2473F;
+}
+
+.prtBox{
+  margin:left;
+  padding-top:2%;
+  padding-left:5%;
+  width: 700px;
+  height:100px;
+}
+
+.prtBox h5{
+  color:black;
+}
+
+/*Container3 PROJECTS*/
+.container3{
+  width:100%;
+  height:500px;
+  background-color:#f0f9fa;
+}
+
+/*Container4 ABOUT*/
+.container4{
+  width:100%;
+  height:500px;
+  background: url(imgs/wtrClouds.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
