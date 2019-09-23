@@ -114,40 +114,33 @@ li {
   color:#F2473F;
 }
 
-/*Container4 ABOUT*/
-.container4{
+/*Container4 CONTACT*/
+.container4{ 
+  color:white;
   width:100%;
   height:500px;
-  background: url(imgs/wtrClouds.jpg) no-repeat center center fixed;
+  background: url(imgs/nightCrawler.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.container4 h1{
-  color:white;
+.bio p{
+  font-family: Zefani;
+  font-size:24px;
 }
-
-
-/*Container5 CONTACT*/
-.container5{
-  width:100%;
-  height:400px;
-  background-color:white;
-}
-
-
 
 /*Picture inside of contact box*/
-.headshot img{
-  width:200px;
-  height:auto;
+.bio img{
+  float:left;
+  height:275px;
+  width:auto;
   border-radius:50%;
   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
-.headshot img:hover {
+.bio img:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
 }
