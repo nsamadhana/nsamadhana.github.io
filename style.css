@@ -1,0 +1,96 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: "Poppins", sans-serif; 
+    background-color: #EEE2DC;
+}
+
+.mantra, .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration:none; 
+    font-size:18px; 
+    margin:15px;
+    color: #5f5f79; 
+}
+
+header{ 
+    display: flex;      
+    width: 90%;
+    margin: auto; 
+    height:10 vh; 
+    align-items:center;
+}
+
+.mantra{
+    font-size:25px;
+    flex: 1;
+}
+
+.mantra h4{
+    font-size: 22px;
+    color: #123C69;
+}
+
+.bio{
+    display:flex;
+    width:90%;
+    margin:auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.introduction{
+    flex:1;
+}
+
+.intro-text h1{
+    font-size:48px;
+    /*color:#AC3B61;*/
+    /*#6f6f89 #494964*/
+    background: linear-gradient(to right, #6f6f89, #AC3B61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px, 5px, 3px, black);
+}
+
+.intro text p{
+    margin:5px; 
+    font-size:22px;
+    color: #585772;
+}
+
+.cover-img img{
+    height: 60vh;
+    width:auto;
+    margin:15px;
+    border-radius:50%;
+    -webkit-filter: grayscale(100%);
+}
+
+.cover-img img:hover {
+    filter: none;
+    transition: 0.6s ease-in-out;
+    
+  }
+
+@media screen and (max-width: 1024px) {
+    .bio { 
+        flex-direction:column;
+    }
+    .introduction {
+        margin-top: 5vh; 
+        text-align:center;
+    }
+    .intro-text {
+        font-size:30px;
+    }
+
+}
