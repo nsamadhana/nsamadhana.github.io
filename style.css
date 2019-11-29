@@ -6,12 +6,16 @@
 
 body{
     font-family: "Poppins", sans-serif; 
-    background-color: #EEE2DC;
+    background-color: rgb(230, 205, 193);
 }
 
 .mantra, .nav-links {
     display: flex;
     list-style: none;
+}
+
+.nav-link:hover {
+    color:white;
 }
 
 a{
@@ -35,8 +39,9 @@ header{
 }
 
 .mantra h4{
-    font-size: 22px;
-    color: #123C69;
+    background: linear-gradient(to right, #6f6f89, #AC3B61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .bio{
@@ -161,7 +166,6 @@ header{
 .cover-img img:hover {
     filter: none;
     transition: 0.6s ease-in-out;
-    
   }
 
 .resume button:hover{
