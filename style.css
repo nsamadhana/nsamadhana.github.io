@@ -152,14 +152,14 @@ header{
 }
 
 .intro-text h1{
-    font-size: 64px;
+    font-size: 38px;
     background: linear-gradient(to right, #6f6f89, #AC3B61);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .intro-text h4{
-    font-size:22px;
+    
     background: linear-gradient(to right, #6f6f89, #AC3B61);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
