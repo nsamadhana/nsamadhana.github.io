@@ -121,7 +121,7 @@ header{
 }
 
 .signature img{
-    top:14vh;
+    top:20vh;
     position:absolute;
     z-index:-1; 
     height:70vh;
@@ -159,7 +159,6 @@ header{
 }
 
 .intro-text h4{
-    
     background: linear-gradient(to right, #6f6f89, #AC3B61);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
