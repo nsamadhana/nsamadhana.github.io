@@ -85,7 +85,6 @@ header{
 
 .work-images img{
     height:35vh;
-    align-content:center;
     width:auto;
 }
 
@@ -175,7 +174,7 @@ header{
 }
 
 .cover-img img{
-    height: 60vh;
+    height: 75vh;
     width:auto;
     margin:15px;
     border-radius:50%;
