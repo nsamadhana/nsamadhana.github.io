@@ -42,6 +42,7 @@ header{
     background: linear-gradient(to right, #6f6f89, #AC3B61);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
 .bio{
@@ -161,6 +162,7 @@ header{
     background: linear-gradient(to right, #6f6f89, #AC3B61);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: large;
 }
 
 .intro text p{
