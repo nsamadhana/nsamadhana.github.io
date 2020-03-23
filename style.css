@@ -101,6 +101,11 @@ header{
     display: flex;
 }
 
+.past-companies img{
+    height: 25vh; 
+    width: auto;
+}
+
 .sm-links li{
     font-size:18px;
 }
@@ -126,7 +131,7 @@ header{
     z-index:-1; 
     height:70vh;
     width:auto;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 .intro-text{
