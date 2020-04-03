@@ -1,14 +1,14 @@
 
-function test(){
+function toggleBio(){
     var textBox = document.getElementById("moreBio");
+    var button = document.querySelector("#moreBtn");
+
     if (textBox.style.display == "none") {
         textBox.style.display = "block";
-        //Change button text to "Hide"
-        textBox.value = "Hide"
+        button.textContent = "Show less";
     }
     else {
-        textBox.style.display = "none"; 
-        //Revert button text back to "More about me"
+        textBox.style.display = "none";
+        button.textContent= "Show more";
     }
-    
 }

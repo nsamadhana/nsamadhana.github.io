@@ -54,16 +54,20 @@ header{
     animation: drop 1.5s ease;
 }
 
-.moreBio{
+
+.moreBio h3{
     display:none;
+}
+
+.moreBtn{
     width: 100%;
     padding: 50px 0;
     text-align: center;
     border:solid;
     border-color:#AC3B61;
     margin-top: 20px;
-
 }
+
 
 .contact{
     display:flex;
