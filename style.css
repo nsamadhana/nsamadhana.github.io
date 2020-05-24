@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0px; 
     padding: 0px; 
@@ -56,6 +58,7 @@ header{
 
 
 .moreBio h3{
+    font-display: none;
     display:none;
 }
 
@@ -236,4 +239,11 @@ button:hover{
         opacity: 1;
         transform: translateY(-0px);
     }
+}
+
+
+.moreBio h3{
+    background-color: #AC3B61;
+    font-display: none;
+    display:none;
 }
