@@ -12,3 +12,8 @@ function toggleBio(){
         button.textContent= "Show more";
     }
 }
+
+
+function expandImg() {
+    
+}

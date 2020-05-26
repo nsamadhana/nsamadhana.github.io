@@ -102,26 +102,18 @@ header{
     width:auto;
 }
 
-.work-images img{
-    height:35vh;
-    width:auto;
-}
 
-.work-images{
-    list-style:none;
-    text-decoration: none;
-    display:flex;
-}
-
-.past-companies {
+.past-companies ul{
     list-style:none;
     text-decoration:none;
-    display: flex;
+    display:block;
 }
 
 .past-companies img{
     height: 25vh; 
     width: auto;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .sm-links li{
@@ -154,6 +146,12 @@ button{
 
 .intro-text{
     z-index:1;
+}
+
+
+
+.intro-text h4 {
+    padding-bottom:20px;
 }
 
 .intro-text h3{
@@ -239,11 +237,4 @@ button:hover{
         opacity: 1;
         transform: translateY(-0px);
     }
-}
-
-
-.moreBio h3{
-    background-color: #AC3B61;
-    font-display: none;
-    display:none;
 }
